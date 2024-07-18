@@ -1,2 +1,4 @@
 # Anomaly-Detection-in-Network-Traffic-Using-Isolation-Forest
 Using unsupervised learning techniques such as isolation forests or autoencoders to detect unusual patterns or anomalies in network traffic data, which could indicate potential security breaches or system malfunctions.
+
+Using the Http dataset from the KDDCUP in 1999. The dataset contains 623091 http connection records from seven weeks of network traffic. A connection is a sequence of TCP packets starting and ending at some well defined times, between which data flows to and from a source IP address to a target IP address under some well defined protocol. The dataset is already preprocessed and contains 41 features of the individual TCP connections, content features and traffic features. Each connection is labeled as either normal, or as an attack, with exactly one specific attack type.
